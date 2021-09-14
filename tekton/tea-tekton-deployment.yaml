@@ -12,6 +12,7 @@ spec:
       labels:
         app: tea-tekton
     spec:
+      serviceAccountName: pipeline
       volumes:
       - name: secret-volume-2
         secret:
