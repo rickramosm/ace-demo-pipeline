@@ -51,3 +51,5 @@ Create a DB2 instance via "Create resource" on the IBM Cloud dashboard; create c
 kubectl create secret generic jdbc-secret --from-literal=USERID='blah' --from-literal=PASSWORD='blah' --from-literal=databaseName='BLUDB' --from-literal=serverName='dashdb-txn-sbox-yp-lon02-02.services.eu-gb.bluemix.net' --from-literal=portNumber='50000' 
 ```
 with the obvious replacements.
+
+oc create secret generic jdbc-secret --from-literal=USERID='svv28298' --from-literal=PASSWORD='5WZ8SlgrkZ90vqTF' --from-literal=databaseName='BLUDB' --from-literal=serverName='fbd88901-ebdb-4a4f-a32e-9822b9fb237b.c1ogj3sd0tgtu0lqde00.databases.appdomain.cloud' --from-literal=portNumber='5000' 

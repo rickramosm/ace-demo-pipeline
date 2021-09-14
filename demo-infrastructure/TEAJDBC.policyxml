@@ -6,7 +6,7 @@
     <databaseVersion>11.5</databaseVersion>
     <type4DriverClassName>com.ibm.db2.jcc.DB2Driver</type4DriverClassName>
     <type4DatasourceClassName>com.ibm.db2.jcc.DB2XADataSource</type4DatasourceClassName>
-    <connectionUrlFormat>jdbc:db2://[serverName]:[portNumber]/[databaseName]:user=[user];password=[password];</connectionUrlFormat>
+    <connectionUrlFormat>jdbc:db2://[serverName]:[portNumber]/[databaseName]:user=[user];password=[password];sslConnection=true;</connectionUrlFormat>
     <connectionUrlFormatAttr1></connectionUrlFormatAttr1>
     <connectionUrlFormatAttr2></connectionUrlFormatAttr2>
     <connectionUrlFormatAttr3></connectionUrlFormatAttr3>
